@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T12:23:52.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="n3XM7QObayBFOMQOsxIK" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T12:30:55.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="VTyf-L-xrjTP9apeK3Ad" version="14.7.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1837" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -608,17 +608,17 @@
         <mxCell id="waWK6XIvVinaLPC_v8p0-201" value="- Id: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-202" value="- ImportMedicineId: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-203" value="- Quantity: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-203" value="- Quantity: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-204" value="- MedicineId: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-204" value="- MedicineId: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
-          <mxGeometry y="104" width="190" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="waWK6XIvVinaLPC_v8p0-211" value="- PeriodicInventoryId: string&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
-          <mxGeometry y="130" width="190" height="24" as="geometry" />
+          <mxGeometry y="104" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-202" value="- ImportMedicineId: string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
+          <mxGeometry y="128" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="waWK6XIvVinaLPC_v8p0-207" value="- CreateDate: DateTime" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="waWK6XIvVinaLPC_v8p0-200">
           <mxGeometry y="154" width="190" height="26" as="geometry" />
@@ -888,12 +888,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-267" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.012;exitY=0.303;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-120" target="waWK6XIvVinaLPC_v8p0-157">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-267" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="waWK6XIvVinaLPC_v8p0-157">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1420" y="1670" as="sourcePoint" />
+            <mxPoint x="1235" y="1580" as="sourcePoint" />
             <mxPoint x="1470" y="1620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1398" y="1542" />
+              <mxPoint x="1235" y="1580" />
+              <mxPoint x="1398" y="1580" />
               <mxPoint x="1398" y="1686" />
             </Array>
           </mxGeometry>
@@ -996,9 +997,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-298" value="" style="endArrow=none;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-203" target="waWK6XIvVinaLPC_v8p0-188">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-298" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="waWK6XIvVinaLPC_v8p0-188">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1320" y="1090" as="sourcePoint" />
+            <mxPoint x="1235" y="1071" as="sourcePoint" />
             <mxPoint x="1370" y="1040" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1380" y="1071" />
@@ -1032,9 +1033,9 @@
             <mxPoint x="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-302" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-202" target="waWK6XIvVinaLPC_v8p0-175">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-302" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="waWK6XIvVinaLPC_v8p0-175">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1380" y="1010" as="sourcePoint" />
+            <mxPoint x="1235" y="1045" as="sourcePoint" />
             <mxPoint x="1430" y="960" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1380" y="1045" />
@@ -1072,7 +1073,7 @@
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="waWK6XIvVinaLPC_v8p0-311" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-49" target="waWK6XIvVinaLPC_v8p0-201">
+        <mxCell id="waWK6XIvVinaLPC_v8p0-311" value="" style="endArrow=none;html=1;strokeWidth=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-50" target="waWK6XIvVinaLPC_v8p0-201">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="1140" as="sourcePoint" />
             <mxPoint x="1050" y="1090" as="targetPoint" />
@@ -1124,6 +1125,42 @@
         </mxCell>
         <mxCell id="waWK6XIvVinaLPC_v8p0-321" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="waWK6XIvVinaLPC_v8p0-319">
           <mxGeometry x="-0.9562" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-322" value="" style="endArrow=none;html=1;strokeWidth=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-207">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1237" y="1137" as="sourcePoint" />
+            <mxPoint x="1560" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="1147" />
+              <mxPoint x="1360" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-323" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="waWK6XIvVinaLPC_v8p0-322">
+          <mxGeometry x="-0.9291" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-324" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="waWK6XIvVinaLPC_v8p0-322">
+          <mxGeometry x="0.9264" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-325" value="" style="endArrow=none;html=1;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="waWK6XIvVinaLPC_v8p0-54" target="waWK6XIvVinaLPC_v8p0-185">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="980" as="sourcePoint" />
+            <mxPoint x="1070" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-326" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="waWK6XIvVinaLPC_v8p0-325">
+          <mxGeometry x="0.927" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="waWK6XIvVinaLPC_v8p0-327" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="waWK6XIvVinaLPC_v8p0-325">
+          <mxGeometry x="-0.938" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
