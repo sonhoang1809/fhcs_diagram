@@ -714,16 +714,16 @@
 													},
 													"font": "Arial;13;0",
 													"left": 84,
-													"top": 534,
+													"top": 528,
 													"width": 148.10986328125,
-													"height": 26,
+													"height": 39,
 													"alpha": 1.4659199086126364,
 													"distance": 19.1049731745428,
 													"hostEdge": {
 														"$ref": "AAAAAAF7FzxNSSISoJ0="
 													},
 													"edgePosition": 1,
-													"text": "2 : Response Excel file medicine report",
+													"text": "2 : Response periodic medicine provided report Excel file",
 													"wordWrap": true
 												},
 												{
@@ -836,7 +836,7 @@
 														"$ref": "AAAAAAF7FzxNSSIX25A="
 													},
 													"edgePosition": 1,
-													"text": "1 : Click on \"Xuất file Excel\"",
+													"text": "1 : Click on \"Xuất ra Excel\"",
 													"wordWrap": true
 												},
 												{
@@ -1016,9 +1016,9 @@
 															"font": "Arial;13;1",
 															"left": 61,
 															"top": 47,
-															"width": 62.736328125,
+															"width": 90.18359375,
 															"height": 13,
-															"text": "Client"
+															"text": "Medical Staff"
 														},
 														{
 															"_type": "LabelView",
@@ -1051,7 +1051,7 @@
 													"font": "Arial;13;0",
 													"left": 56,
 													"top": 40,
-													"width": 72.736328125,
+													"width": 100.18359375,
 													"height": 40,
 													"stereotypeLabel": {
 														"$ref": "AAAAAAF7FzxNSSIiNrM="
@@ -1076,7 +1076,7 @@
 														"$ref": "AAAAAAF7FzxNSiJAC04="
 													},
 													"font": "Arial;13;0",
-													"left": 92,
+													"left": 106,
 													"top": 80,
 													"width": 1,
 													"height": 237
@@ -1085,7 +1085,7 @@
 											"font": "Arial;13;0",
 											"left": 56,
 											"top": 40,
-											"width": 72.736328125,
+											"width": 100.18359375,
 											"height": 277,
 											"nameCompartment": {
 												"$ref": "AAAAAAF7FzxNSSIh0XY="
@@ -1233,7 +1233,7 @@
 														"$ref": "AAAAAAF7FzxNSiI9XeM="
 													},
 													"font": "Arial;13;0",
-													"left": 120,
+													"left": 127,
 													"top": 104,
 													"width": 161,
 													"height": 13,
@@ -1257,7 +1257,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 196,
+													"left": 203,
 													"top": 104,
 													"height": 13,
 													"alpha": 1.5707963267948966,
@@ -1278,7 +1278,7 @@
 													},
 													"visible": false,
 													"font": "Arial;13;0",
-													"left": 196,
+													"left": 203,
 													"top": 139,
 													"height": 13,
 													"alpha": -1.5707963267948966,
@@ -1311,7 +1311,7 @@
 											"tail": {
 												"$ref": "AAAAAAF7FzxNSSImI3w="
 											},
-											"points": "92:135;301:135",
+											"points": "106:135;301:135",
 											"nameLabel": {
 												"$ref": "AAAAAAF7FzxNSSIvi78="
 											},
@@ -1323,6 +1323,119 @@
 											},
 											"activation": {
 												"$ref": "AAAAAAF7FzxNSSIy0E4="
+											}
+										},
+										{
+											"_type": "UMLSeqMessageView",
+											"_id": "AAAAAAF7FzxNSSI4csg=",
+											"_parent": {
+												"$ref": "AAAAAAF7FzxNSSIc8vw="
+											},
+											"model": {
+												"$ref": "AAAAAAF7FzxNSiI/iS4="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAF7FzxNSSI5wZg=",
+													"_parent": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"model": {
+														"$ref": "AAAAAAF7FzxNSiI/iS4="
+													},
+													"font": "Arial;13;0",
+													"left": 126,
+													"top": 264,
+													"width": 148.10986328125,
+													"height": 39,
+													"alpha": 1.4601394714746745,
+													"distance": 27.16615541441225,
+													"hostEdge": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"edgePosition": 1,
+													"text": "3 : Response periodic medicine provided report Excel file",
+													"wordWrap": true
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAF7FzxNSiI6NdI=",
+													"_parent": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"model": {
+														"$ref": "AAAAAAF7FzxNSiI/iS4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 202,
+													"top": 275,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 25,
+													"hostEdge": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAF7FzxNSiI7EZw=",
+													"_parent": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"model": {
+														"$ref": "AAAAAAF7FzxNSiI/iS4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 203,
+													"top": 240,
+													"height": 13,
+													"alpha": -1.5707963267948966,
+													"distance": 10,
+													"hostEdge": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"edgePosition": 1
+												},
+												{
+													"_type": "UMLActivationView",
+													"_id": "AAAAAAF7FzxNSiI8Sw0=",
+													"_parent": {
+														"$ref": "AAAAAAF7FzxNSSI4csg="
+													},
+													"model": {
+														"$ref": "AAAAAAF7FzxNSiI/iS4="
+													},
+													"visible": false,
+													"font": "Arial;13;0",
+													"left": 106,
+													"top": 256,
+													"width": 14,
+													"height": 25
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAF7FzxNSSImI3w="
+											},
+											"tail": {
+												"$ref": "AAAAAAF7FzxNSSItl2g="
+											},
+											"points": "301:256;106:256",
+											"nameLabel": {
+												"$ref": "AAAAAAF7FzxNSSI5wZg="
+											},
+											"stereotypeLabel": {
+												"$ref": "AAAAAAF7FzxNSiI6NdI="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAF7FzxNSiI7EZw="
+											},
+											"activation": {
+												"$ref": "AAAAAAF7FzxNSiI8Sw0="
 											}
 										},
 										{
@@ -1436,119 +1549,6 @@
 											"activation": {
 												"$ref": "AAAAAAF7FzxNSSI3E9I="
 											}
-										},
-										{
-											"_type": "UMLSeqMessageView",
-											"_id": "AAAAAAF7FzxNSSI4csg=",
-											"_parent": {
-												"$ref": "AAAAAAF7FzxNSSIc8vw="
-											},
-											"model": {
-												"$ref": "AAAAAAF7FzxNSiI/iS4="
-											},
-											"subViews": [
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAF7FzxNSSI5wZg=",
-													"_parent": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"model": {
-														"$ref": "AAAAAAF7FzxNSiI/iS4="
-													},
-													"font": "Arial;13;0",
-													"left": 119,
-													"top": 264,
-													"width": 148.10986328125,
-													"height": 39,
-													"alpha": 1.4601394714746745,
-													"distance": 27.16615541441225,
-													"hostEdge": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"edgePosition": 1,
-													"text": "3 : Response periodic medicine provided report Excel file",
-													"wordWrap": true
-												},
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAF7FzxNSiI6NdI=",
-													"_parent": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"model": {
-														"$ref": "AAAAAAF7FzxNSiI/iS4="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 195,
-													"top": 275,
-													"height": 13,
-													"alpha": 1.5707963267948966,
-													"distance": 25,
-													"hostEdge": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "EdgeLabelView",
-													"_id": "AAAAAAF7FzxNSiI7EZw=",
-													"_parent": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"model": {
-														"$ref": "AAAAAAF7FzxNSiI/iS4="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 196,
-													"top": 240,
-													"height": 13,
-													"alpha": -1.5707963267948966,
-													"distance": 10,
-													"hostEdge": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"edgePosition": 1
-												},
-												{
-													"_type": "UMLActivationView",
-													"_id": "AAAAAAF7FzxNSiI8Sw0=",
-													"_parent": {
-														"$ref": "AAAAAAF7FzxNSSI4csg="
-													},
-													"model": {
-														"$ref": "AAAAAAF7FzxNSiI/iS4="
-													},
-													"visible": false,
-													"font": "Arial;13;0",
-													"left": 92,
-													"top": 256,
-													"width": 14,
-													"height": 25
-												}
-											],
-											"font": "Arial;13;0",
-											"head": {
-												"$ref": "AAAAAAF7FzxNSSImI3w="
-											},
-											"tail": {
-												"$ref": "AAAAAAF7FzxNSSItl2g="
-											},
-											"points": "301:256;92:256",
-											"nameLabel": {
-												"$ref": "AAAAAAF7FzxNSSI5wZg="
-											},
-											"stereotypeLabel": {
-												"$ref": "AAAAAAF7FzxNSiI6NdI="
-											},
-											"propertyLabel": {
-												"$ref": "AAAAAAF7FzxNSiI7EZw="
-											},
-											"activation": {
-												"$ref": "AAAAAAF7FzxNSiI8Sw0="
-											}
 										}
 									]
 								}
@@ -1605,7 +1605,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF7FzxNSSH/Mbc="
 									},
-									"name": "Client",
+									"name": "Medical Staff",
 									"isMultiInstance": false
 								},
 								{
