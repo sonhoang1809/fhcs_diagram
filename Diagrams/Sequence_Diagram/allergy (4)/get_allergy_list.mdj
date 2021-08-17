@@ -25,7 +25,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "SD: Get contraindications list process",
+							"name": "Get allergy list process",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -46,9 +46,9 @@
 											"font": "Arial;13;0",
 											"left": 184.72998046875,
 											"top": 13,
-											"width": 217.0361328125,
+											"width": 132.49169921875,
 											"height": 13,
-											"text": "SD: Get contraindications list process"
+											"text": "Get allergy list process"
 										},
 										{
 											"_type": "LabelView",
@@ -234,7 +234,7 @@
 													"top": 47,
 													"width": 197.79541015625,
 													"height": 13,
-													"text": "ContraindicationsController",
+													"text": "AllergyController",
 													"wordWrap": true
 												},
 												{
@@ -468,7 +468,7 @@
 													"top": 47,
 													"width": 181.9453125,
 													"height": 13,
-													"text": "ContraindicationsService"
+													"text": "AllergyService"
 												},
 												{
 													"_type": "LabelView",
@@ -804,7 +804,7 @@
 												"$ref": "AAAAAAF6D55FL118qkc="
 											},
 											"edgePosition": 1,
-											"text": "1 : Click on button on dashboard"
+											"text": "1 : Click on \"Dị ứng\" tab"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1727,7 +1727,7 @@
 												"$ref": "AAAAAAF6D55FMF2pPYo="
 											},
 											"edgePosition": 1,
-											"text": "7 : getContraindicationsList"
+											"text": "7 : getAllergyList"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1838,7 +1838,7 @@
 												"$ref": "AAAAAAF6D55FMF2uC+8="
 											},
 											"edgePosition": 1,
-											"text": "8 : getContraindicationsList",
+											"text": "8 : getAllergyList",
 											"wordWrap": true
 										},
 										{
@@ -2603,7 +2603,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "Click on button on dashboard",
+							"name": "Click on \"Dị ứng\" tab",
 							"source": {
 								"$ref": "AAAAAAF6D55FMV3fWLk="
 							},
@@ -2696,7 +2696,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "getContraindicationsList",
+							"name": "getAllergyList",
 							"source": {
 								"$ref": "AAAAAAF6D55FMV3g04M="
 							},
@@ -2711,7 +2711,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "getContraindicationsList",
+							"name": "getAllergyList",
 							"source": {
 								"$ref": "AAAAAAF6D55FMV3imyA="
 							},
@@ -2832,7 +2832,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "ContraindicationsController",
+							"name": "AllergyController",
 							"isMultiInstance": false
 						},
 						{
@@ -2850,7 +2850,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6D55FL11NCC4="
 							},
-							"name": "ContraindicationsService",
+							"name": "AllergyService",
 							"isMultiInstance": false
 						},
 						{

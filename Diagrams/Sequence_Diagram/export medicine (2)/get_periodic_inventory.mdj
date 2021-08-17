@@ -25,7 +25,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "SD: Get export medicine list process",
+							"name": "Get medicine import - export - inventory by month report process",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -46,9 +46,9 @@
 											"font": "Arial;13;0",
 											"left": 184.72998046875,
 											"top": 13,
-											"width": 211.2470703125,
+											"width": 373.09326171875,
 											"height": 13,
-											"text": "SD: Get export medicine list process"
+											"text": "Get medicine import - export - inventory by month report process"
 										},
 										{
 											"_type": "LabelView",
@@ -234,7 +234,7 @@
 													"top": 47,
 													"width": 186.2490234375,
 													"height": 13,
-													"text": "ExportMedicineController",
+													"text": "PeriodicInventoryController",
 													"wordWrap": true
 												},
 												{
@@ -468,7 +468,7 @@
 													"top": 47,
 													"width": 170.39892578125,
 													"height": 13,
-													"text": "ExportMedicineService"
+													"text": "PeriodicInventoryService"
 												},
 												{
 													"_type": "LabelView",
@@ -794,17 +794,18 @@
 												"$ref": "AAAAAAF6Du5CJ/mHpQQ="
 											},
 											"font": "Arial;13;0",
-											"left": 360,
-											"top": 106,
-											"width": 216.6455078125,
-											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"left": 383,
+											"top": 95,
+											"width": 172,
+											"height": 26,
+											"alpha": 1.4994881513497438,
+											"distance": 14.035668847618199,
 											"hostEdge": {
 												"$ref": "AAAAAAF6Du5CJvkySgY="
 											},
 											"edgePosition": 1,
-											"text": "1 : Click on button on dashboard"
+											"text": "1 : Click \"Xuất nhập tồn\" on side nav",
+											"wordWrap": true
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1727,7 +1728,7 @@
 												"$ref": "AAAAAAF6Du5CJ/lfWyw="
 											},
 											"edgePosition": 1,
-											"text": "7 : getExportMedicineList"
+											"text": "7 : getPeriodicInventory"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1838,7 +1839,7 @@
 												"$ref": "AAAAAAF6Du5CJ/lkvow="
 											},
 											"edgePosition": 1,
-											"text": "8 : getExportMedicineList"
+											"text": "8 : getPeriodicInventory"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -2602,7 +2603,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "Click on button on dashboard",
+							"name": "Click \"Xuất nhập tồn\" on side nav",
 							"source": {
 								"$ref": "AAAAAAF6Du5CKPmVNCc="
 							},
@@ -2695,7 +2696,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "getExportMedicineList",
+							"name": "getPeriodicInventory",
 							"source": {
 								"$ref": "AAAAAAF6Du5CKPmWEwE="
 							},
@@ -2710,7 +2711,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "getExportMedicineList",
+							"name": "getPeriodicInventory",
 							"source": {
 								"$ref": "AAAAAAF6Du5CKPmY+VM="
 							},
@@ -2831,7 +2832,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "ExportMedicineController",
+							"name": "PeriodicInventoryController",
 							"isMultiInstance": false
 						},
 						{
@@ -2849,7 +2850,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF6Du5CJfkDAIA="
 							},
-							"name": "ExportMedicineService",
+							"name": "PeriodicInventoryService",
 							"isMultiInstance": false
 						},
 						{
